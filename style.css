@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap);
+
+:root{
+    --color_verde: #1e1801;
+    --color_branca: #ffff;
+    --color_vermelho: #E5272F;
+    --color_verde_claro: #FCF42F;
+    --color_um: #f9a830;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+    
+}
+body{
+    font-family: "Ubuntu", sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.img_logo_header{
+    width: 150px;
+    border-radius: 50%;
+    
+}
+.header,
+.nav_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.header{
+    background-color: var(--color_um);
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.507);
+    height: 150px;
+    justify-content: space-between;
+    padding: 0% 10%;
+    
+}
+.nav_header{
+    gap: 3em;
+}
+.nav_header a{
+    text-decoration: none;
+    color: var(--color_branca);
+    background-color:var(--color_vermelho);
+    transition: 1s;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+.container{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 150px;
+}
+.container2{
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 150px;
+}
+
+.texto{
+    width: 700px;
+    text-align: justify;
+    font-size: 20px;
+    color: white;
+    
+}
+.text{
+    font-size: 48px; 
+    color: white;  
+}
+
+.sobre{
+    color: white;;
+
+}
+.imgflex{
+  width: 700px;
+  height: 700px;
+    
+}
+.foto-loja2{
+    width: 700px;
+
+}
+.botao{
+    text-align: center;
+    background-color: #4B4B4B;
+    margin-top: 220px;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9a830;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Ubuntu", sans-serif;
+   
+
+}
+span{
+    color: #f9a830;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+
+
+
