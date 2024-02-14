@@ -17,7 +17,8 @@
 }
 body{
     font-family: "Ubuntu", sans-serif;
-    background-color: black;
+    background: url(imagens/fundo-site-ouro-preto.png);
+    background-size: cover;
     color: white;
 }
 
