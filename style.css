@@ -59,6 +59,10 @@ body{
     border-radius: 8px;
 
 }
+.marcas > img{
+    width: 99vw;
+    
+}
 .container{
 
     display: flex;
