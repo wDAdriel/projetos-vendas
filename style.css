@@ -118,7 +118,27 @@ body{
    
 
 }
+.botaofinal{
+    text-align: center;
+    background: transparent;
+    border: 2px solid #f9a830;
+    margin-top: 70px;    
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;    
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Ubuntu", sans-serif;
+}
 .botao:hover{
+    box-shadow: 0 0 15px #f9a830;
+    transform: translate(-3px , -2px);
+    color: white;
+    transition: transform .6s;
+
+}
+.botaofinal:hover{
     box-shadow: 0 0 15px #f9a830;
     transform: translate(-3px , -2px);
     color: white;
@@ -131,10 +151,7 @@ span{
     font-size: 26px;
 }
 
-section#redes-sociais {
-    text-align: center;
-    
-}
+
 section#redes-sociais img {
     width: 50px;
     border-radius: 25%;
